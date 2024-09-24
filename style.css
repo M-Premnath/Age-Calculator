@@ -92,3 +92,51 @@
       transform: scale(1);
     }
   }
+
+ /* Added media query for mobile screen size */
+@media (max-width: 480px) {
+    .container{
+        width:100%;
+        max-width: 80vh;
+        padding: 10px;
+        max-height: 1200px;
+    }
+
+    .calculator{
+        width:100%;
+        max-width: 300px;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+    .calculator img{
+         display:none;  
+    }
+    .calculator h1{
+        font-size: 35px;
+    }
+    .calculator p{
+        font-size: 16px;
+    }
+    .input-box{
+        margin: 20px 0;
+        padding: 10px;
+        margin-right: 5%;
+        height: 30px;
+    }
+    .input-box input{
+        margin-right: 5px;
+        padding: 8px;
+        text-align: left;
+
+        font-size: 14px;
+    }    
+    .input-box button{
+        padding: 8px 10px;
+        height:35px;
+        font-weight: 200;
+        font-size: 16px;
+    } 
+    #result{
+        font-size: 15px;
+    }
+}
