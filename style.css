@@ -5,7 +5,7 @@
 }
 .container{
     width: 100%;
-    min-height: 100vh;
+    height: 630px;
     color:#fff;
     padding:10px;
     margin: 0px;
@@ -133,6 +133,50 @@
     .input-box button{
         padding: 8px 10px;
         height:35px;
+        font-weight: 200;
+        font-size: 16px;
+    } 
+    #result{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 780px){
+    .container{
+        width:100%;
+        max-width: 1200px;
+    }
+    .calculator{
+        width:100%;
+        max-width: 400px;
+        /* max-width: 700px; */
+        padding:20px;
+        margin-left: 2%;
+    }
+    .calculator img{
+        height: 300px;
+    }
+    .calculator h1{
+        font-size: 35px;
+    }
+    .calculator p{
+        font-size: 14px;
+    }
+    .input-box{
+        margin: 20px 0;
+        padding: 10px;
+        margin-right: 5%;
+        height: 20px;
+    }
+    .input-box input{
+        /* margin-right: 5px; */
+        padding: 5px 20px;
+        text-align: left;
+        font-size: 16px;
+    }    
+    .input-box button{
+        padding: 5px 10px;
+        height:30px;
         font-weight: 200;
         font-size: 16px;
     } 
