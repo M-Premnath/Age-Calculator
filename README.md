@@ -45,7 +45,7 @@ https://github.com/M-Premnath/Age-Calculator.git
 
 #### Here are some mockups of the Age Calculator application on different devices:
 
-![Age calculator mockups](https://github.com/user-attachments/assets/8e5687fa-3a2e-4319-8beb-9749152c10f3)
+<a href="https://github.com/M-Premnath/Age-Calculator.git"> ![Age calculator mockups](https://github.com/user-attachments/assets/8e5687fa-3a2e-4319-8beb-9749152c10f3) </a>
 
 
 ## Tech Stack
