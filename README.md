@@ -1,11 +1,11 @@
 
-<h1>Age Calculator<a href="https://m-premnath.github.io/Age-Calculator/" target="_blank"> 📱</a> </h1>
+<h1>Age Calculator<a href="https://m-premnath.github.io/Age-Calculator/"  target="_blank"> 📱</a> </h1>
 
 This project is a simple yet effective Age Calculator built using HTML, CSS, and JavaScript. The application allows users to input their date of birth and, with the click of a button, calculates their exact age in years, months, and days. 
 
 This tool is perfect for anyone who needs to quickly determine their age for various purposes, such as filling out forms, verifying age requirements, or simply satisfying curiosity.
 
-<a href="https://m-premnath.github.io/Age-Calculator/" target="_blank"> Click to Explore</a>
+<a href="https://m-premnath.github.io/Age-Calculator/" target="blank"> Click to Explore</a>
 ## Table of Contents
 
 - Features
