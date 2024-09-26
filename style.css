@@ -11,15 +11,39 @@
     margin: 0px;
     background:linear-gradient(135deg, #4203a9, #90bafc);
 }
-.calculator{
-    width:100%;
-    max-width: 600px;
-    margin-left: 10%;
-    margin-top: 5%;
+main{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    /* background-color: #333; */
 }
-.calculator img{
-    margin-left: 50%;
+#parent{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -5%;
+    bottom: -50%;
+    /* background-color: #90bafc; */
+}
+.calculator{
     position: absolute;
+    width:40%;
+    height: 100%;
+    left: 10%;
+    top: 15%;
+    /* max-width: 600px;
+    margin-left: 10%;
+    margin-top: 5%; */
+}
+.img{
+    position: absolute;
+    width:20%;
+    height: 100%;
+    left: 60%;
+    top: 10%;
+    /* background-color: #fff; */
 }
 .calculator h1{
     font-size: 60px;
@@ -96,38 +120,69 @@
  /* Added media query for mobile screen size */
 @media (max-width: 480px) {
     .container{
+        position: fixed;
         width:100%;
-        max-width:480px;
+        height: 100%;
+        top: 0;
+        /* max-width:480px;
         min-width: 360px;
         padding: 10px;
-        max-height: 1800px;
+        max-height: 1800px; */
     }
-
-    .calculator{
-        width:max-content;
-        max-height: 1500px;
-        margin: 0px auto;
-        padding: 20px;
+    #parent{
         position: relative;
-        left: 0%;
-        right: 20%;
-        top: 2%;
+        height: 120%;
+        width: 100%;
+        top: -10%;
+        bottom: 0%;
+        /* background-color: #90bafc; */
     }
-    .calculator img{
+    .calculator{
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        height: 30%;
+        width: 100%;
+    }
+    .img{
          position: absolute;
-         left: -50%;
-         top:23%;
-         margin-top: 53%;
+         left: 0;
+         top:53%;
+         height: 40%;
+         width: 100%;
+    }
+    #img{
+        /* background-color: #4203a9; */
+        position: absolute;
+        height: 100%;
+        width: 80%;
+        left: 10%;
     }
     .calculator h1{
         font-size: 35px;
     }
     .calculator p{
         font-size: 16px;
-        margin-right: 30%;
+        position: absolute;
+        height: 20%;
+        top: 50%;
+        left: 6%;
+        /* right: 5%; */
+        /* background-color: #90bafc; */
+        /* margin-right: 30%; */
+        width: 70%;
+    }
+    #result{
+        position: absolute;
+        top: 100%;
+        font-size: 15px;
     }
     .input-box{
-        width:250px;
+        position: absolute;
+        top: 65%;
+        right: 17%;
+        /* height: 50%; */
+        width:70%;
         margin: 10px;
     } 
     .input-box input{
@@ -140,9 +195,7 @@
         padding-right: 5px;
 
     }    
-    #result{
-        font-size: 15px;
-    }
+
 }
 
 @media (max-width: 780px){
@@ -171,6 +224,11 @@
         padding: 10px;
         margin-right: 5%;
         height: 20px;
+    }
+    #date{
+        margin-right: 5%;
+        padding-left: 7%;
+        padding-right: 5px;
     }
     .input-box input{
          margin-right: 5px; 
